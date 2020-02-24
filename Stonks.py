@@ -5,15 +5,15 @@
 # Modified: February 23 2020
 
 # Displayed messages.
+# These are the messages that will be displayed in junction with their
+# corresponding lists when the user opens their inventory. Displayed at the end
+# of the code.
 inventory = ['profit', 'employees']
 profit = "The current amount of money generated is: $"
 employees = "The amount of active employees are:"
 
-# These are the messages that will be displayed in junction with their
-# corresponding lists when the user opens their inventory. Displayed at the end
-# of the code.
-
 # Employees list.
+# The user can add, remove and sort employees.
 emp = ['E1', 'E2', 'E3', 'E4']
 print("Original employee list:", f"{emp}")
 emp.append('E5')
@@ -28,9 +28,8 @@ emp.sort()
 print("Employees have been sorted in ascending order:", f"{emp}")
 len(emp)
 
-# An employee list where the user can hire or fire employees
-
-# Company profits.
+# Company profits
+# User can remove and sort the profits list.
 prf = ['Gross', 'Taxes', 'Loans', 'Deductions']
 print("Current profit includes:", f"{prf}")
 print("Sorted list:", f"{sorted(prf)}")
