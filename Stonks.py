@@ -28,7 +28,7 @@ emp.sort()
 print("Employees have been sorted in ascending order:", f"{emp}")
 len(emp)
 
-# Company profits
+# Company profits.
 # User can remove and sort the profits list.
 prf = ['Gross', 'Taxes', 'Loans', 'Deductions']
 print("Current profit includes:", f"{prf}")
