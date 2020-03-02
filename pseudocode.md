@@ -45,31 +45,31 @@ output: What will you do,/
     S: move south/
     D: Move east/
 
-Map Code:
-2x2 Map
-print image of map and where player is
+Map Code:/
+2x2 Map/
+print image of map and where player is./
 
-Employee code:
-    hire employee "add to a list"
-        subtracts profit
-        increases rate of counter
-    fire employee "removes from list"
-        increases profit
-        decreases rate of counter
+Employee code:/
+    hire employee "add to a list"/
+        subtracts profit/
+        increases rate of counter/
+    fire employee "removes from list"/
+        increases profit/
+        decreases rate of counter/
 
-status code:
-if player input (I)
-    print(value of profit)
-    print(rate of profit)
-    print(efficiency)
-    print(number of employees)
-    print(list of employees)
+status code:/
+if player input (I)/
+    print(value of profit)/
+    print(rate of profit)/
+    print(efficiency)/
+    print(number of employees)/
+    print(list of employees)/
 
-Invalid Input Code:
-    print(invalid input)
+Invalid Input Code:/
+    print(invalid input)/
 
-stop code:
-    player input END
-        game stops
-    if profit = 1 000 000
-        game stops
+stop code:/
+    player input END/
+        game stops/
+    if profit = 1 000 000/
+        game stops/
