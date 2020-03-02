@@ -15,16 +15,16 @@ output "your job is to manage your company and employees to maximize profits"
 
 
 Money counter code:
-    def increase_value_evrey_t_sec(initail_value, interval, increase_by,stop_after = -1):
-counter = 0
-values = []
-    while counter < stop_after or stop_after == -1:
-        time.sleep(interval)
-        initail_value += increase_by
-        print(initail_value)
-        values.append(initail_value)
-        counter += 1
-        increases over time at a constant rate until changed by player inputs
+    def increase_value_evrey_t_sec(initail_value, interval,/ increase_by,stop_after = -1):/
+counter = 0/
+values = []/
+    while counter < stop_after or stop_after == -1:/
+        time.sleep(interval)/
+        initail_value += increase_by/
+        print(initail_value)/
+        values.append(initail_value)/
+        counter += 1/
+        increases over time at a constant rate until changed by player inputs/
 
     if profits = 70 000
     and time < 70 s
@@ -33,17 +33,17 @@ values = []
         increase Profits
         taxesdefault = -0.2*(profits)
 
-Player code:
-while time>0
-output: What will you do,
-    if player inputs:
-    1: Hire employee
-    2: Fire employee
-    3: Manage Profits
-    W: move north
-    A: move west
-    S: move south
-    D: Move east
+Player code:/
+while time>0/
+output: What will you do,/
+    if player inputs:/
+    1: Hire employee/
+    2: Fire employee/
+    3: Manage Profits/
+    W: move north/
+    A: move west/
+    S: move south/
+    D: Move east/
 
 Map Code:
 2x2 Map
